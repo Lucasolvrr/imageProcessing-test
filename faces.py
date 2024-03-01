@@ -17,6 +17,7 @@ for (x, y, w, h) in faces:
     cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
 # Exibir a imagem com os rostos detectados
+cv2.namedWindow('Rostos detectados', cv2.WINDOW_NORMAL)    
 cv2.imshow('Rostos detectados', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
