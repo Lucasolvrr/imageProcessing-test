@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('images/coloridos.jpg',0)
+img = cv2.imread('images/color-logos.jpg',0)
 #img = cv2.imread('logo2.png',0)
 
 

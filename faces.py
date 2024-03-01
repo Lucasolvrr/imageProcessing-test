@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Carregar a imagem
-image = cv2.imread('images/Pessoas.jpg')
+image = cv2.imread('images/people.jpg')
 
 # Converter a imagem para escala de cinza (a detecção de rostos é realizada em imagens em escala de cinza)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

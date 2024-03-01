@@ -3,7 +3,7 @@
 This is an image processing project that performs certain operations on digital images. The code is written in Python and uses various popular image processing libraries.
 
 
-## Installation
+## Installation guide
 
 To run the code in this project, you will need the following Python libraries:
 
